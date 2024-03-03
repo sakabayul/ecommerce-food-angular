@@ -1,0 +1,28 @@
+<!-- prodcuts section starts  -->
+<section class="products" id="products">
+    <h1 class="heading"> latest <span>products</span> </h1>
+    <div class="box-container">
+        <div *ngFor="let product of products" class="box-penjualan">
+            <span class="discount">-{{ product.discount }}%</span>
+            <div class="image">
+                <img src="{{ product.img }}" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#products" class="fas fa-share" (click)="share()"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>{{ product.name }}</h3>
+                <div class="price"> ${{ product.price*(1-(product.discount/100)) }} 
+                    <span>${{ product.price }}</span> </div>
+            </div>
+        </div>
+    </div>
+    <div class="pagination">
+        <a class="btn">&laquo; Prev</a>
+        <div class="pages"></div>
+        <a class="btn">Next &raquo;</a>
+    </div>
+</section>
+<!-- prodcuts section ends -->

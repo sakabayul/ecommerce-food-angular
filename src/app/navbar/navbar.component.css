@@ -1,0 +1,75 @@
+/* Section Navigasi bar Start */
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+    background:#fff;
+    padding:1rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+header .logo{
+    font-size: 2rem;
+    color: var(--warna2);
+    font-weight: bolder;
+}
+header .logo span{
+    color:var(--warna1);
+}
+header .navbar a{
+    font-size: 1.1rem;
+    padding:0 1.5rem;
+    color:#666;
+}
+header .navbar a:hover{
+    color:var(--warna2);
+}
+header .icons a{
+    font-size: 1.5rem;
+    color: var(--warna2);
+    margin-left: 1.5rem;
+}
+header .icons a:hover{
+    color:var(--warna1);
+}
+header #toggler{
+    display: none;
+}
+header .fa-bars{
+    font-size: 2rem;
+    color: var(--warna2);
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    cursor: pointer;
+    border:.1rem solid rgba(0,0,0,.3);
+    display: none;
+}
+/* Section Navigasi bar End */
+
+
+/* Media Responsive Start */
+@media (max-width:700px){
+    header .fa-bars{
+        display: block;
+    }
+    header .navbar{
+        position:absolute;
+        top:100%; left:0; right:0;
+        background:#eee;
+        border-top: .1rem solid rgba(0,0,0,.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    header #toggler:checked ~ .navbar{
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    header .navbar a{
+        margin:1.5rem;
+        padding:1.5rem;
+        background:#fff;
+        border:.1rem solid rgba(0,0,0,.1);
+        display: block;
+    }
+}
+/* Media Responsive End */

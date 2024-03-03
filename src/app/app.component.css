@@ -1,0 +1,84 @@
+
+/* Pengaturan Section Start */
+/* Pengaturan Section End */
+
+
+/* Section Navigasi bar Start */
+/* Section Navigasi bar End */
+
+
+/* Section Gambar hero Start */
+/* Section Gambar hero End */
+
+
+/* Pengaturan button Start */
+/* Pengaturan button End */
+
+
+/* Section About Start */
+/* Section About End */
+
+
+
+/* Section icons Start */
+.icons-container{
+    background:#eee;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    padding: 1rem;
+}
+.icons-container .icons{
+    background:#fff;
+    border:.1rem solid rgba(0,0,0,.1);
+    padding:1rem;
+    display: flex;
+    align-items: center;
+    flex:1 1 15rem;
+}
+.icons-container .icons img{
+    height:4rem;
+    margin-right: 2rem;
+}
+.icons-container .icons h3{
+    color: var(--warna2);
+    padding-bottom: .5rem;
+    font-size: 1.1rem;
+}
+.icons-container .icons span{
+    color:#555;
+    font-size: .9rem;
+}
+/* Section icons End */
+
+
+
+/* Section Produck yang dijual Start */
+/* Section Produck yang dijual End */
+
+
+
+/* Section Review dari pelanggan start */
+/* Section Review dari pelanggan End */
+
+
+
+/* Section Contact Start */
+/* Section Contact End */
+
+
+
+/* Section Footer Start */
+/* Section Footer End */
+
+
+
+/* Media Responsive Start */
+/* Media Responsive End */
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/

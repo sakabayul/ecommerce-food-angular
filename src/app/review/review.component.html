@@ -1,0 +1,25 @@
+<!-- review section starts  -->
+<section class="review" id="review">
+    <h1 class="heading"> customer's <span>review</span> </h1>
+    <div class="box-container">
+        <div *ngFor="let review of reviews" class="box">
+            <div class="stars" id="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>{{ review.description }}</p>
+            <div class="user">
+                <img src="{{ review.img }}" alt="">
+                <div class="user-info">
+                    <h3>{{ review.name }}</h3>
+                    <span>{{ review.status }}</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+    </div>
+</section>
+<!-- review section ends -->

@@ -1,0 +1,40 @@
+/* Section Footer Start */
+.footer .box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:2rem;
+}
+.footer .box-container .box{
+    flex:1 1 20rem;
+}
+.footer .box-container .box h3{
+    color: var(--warna2);
+    font-size: 1.7rem;
+    padding:1rem 0;
+}
+.footer .box-container .box a{
+    display: block;
+    color:#666;
+    font-size: 1.2rem;
+    padding:1rem 0;
+}
+.footer .box-container .box a:hover{
+    color:var(--warna1);
+    text-decoration: underline;
+}
+.footer .box-container .box  img{
+    margin-top: 1rem;
+}
+.footer .credit{
+    text-align: center;
+    margin-top: 1.5rem;
+    padding-top: 5rem;
+    font-size: 1rem;
+    color: var(--warna1);
+    border-top: .1rem solid rgba(0,0,0,.1);
+}
+.footer .credit a{
+    color:var(--warna2);
+}
+/* Section Footer End */

@@ -1,0 +1,56 @@
+
+/* Section Gambar hero Start */
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background:url(../../assets/image/home-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home .content{
+    width: 500px;
+    max-width: 50rem;
+}
+.home .content h3{
+    font-size: 3rem;
+    color: var(--warna2);
+}
+.home .content span{
+    font-size: 2rem;
+    color: var(--warna1);
+    padding:1rem 0;
+    line-height: 1.5;
+}
+.home .content p{
+    font-size: 1rem;
+    color: var(--warna1);
+    padding:1rem 0;
+    line-height: 1.5;
+}
+/* Section Gambar hero End */
+
+@media (max-width:1100px){
+    .home{
+        align-items:unset;
+    }
+    .home .content{
+        width: 450px;
+        margin-top: 300px;
+    }
+    .home .content p{
+        color: var(--warna1);
+    }
+}
+@media (max-width:768px){
+    .home{
+        align-items:unset;
+    }
+    .home .content{
+        width: 200px;
+        margin-top: 100px;
+    }
+    .home .content p{
+        color: var(--warna1);
+    }
+}
