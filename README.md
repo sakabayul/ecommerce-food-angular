@@ -6,3 +6,4 @@
 ~ Update Versi 0.1
 ~ Update Versi 0.2
 ~ Update Versi 0.3
+~ Update Versi 1.0
