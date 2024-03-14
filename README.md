@@ -1,9 +1,9 @@
-# latihan-angular-1-
+# Website E-commerce Angular
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/sakabayul/latihan-angular-1-)
-
-~ Update Versi 0.0
-~ Update Versi 0.1
-~ Update Versi 0.2
-~ Update Versi 0.3
-~ Update Versi 1.0
+Design UI/UX By: Saka Bayu <br>
+Web Development By: Saka Bayu
+<br>
+<br>
+Contact me: <br>
+Linkedin: https://www.linkedin.com/in/saka-bayu-l <br>
+GitHub: https://github.com/sakabayul
